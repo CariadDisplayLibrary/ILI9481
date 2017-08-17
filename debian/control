@@ -1,0 +1,20 @@
+Source: libdisplaycore-driver-ili9481
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-driver-ili9481
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Drivers
+Depends: libdisplaycore-core
+Provides: ILI9481.h
+Description: ILI9481 driver for DisplayCore
+ The ILI9481 is used by a number of generic 3.2"
+ 320x480 TFT screens.  It's a 16-bit parallel interface.
+
+
+
